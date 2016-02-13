@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_json (1.11.2)
+    multi_xml (0.5.5)
+    mysql2 (0.4.2)
+    strava-api-v3 (0.1.0)
+      httparty
+      multi_json
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mysql2
+  strava-api-v3
